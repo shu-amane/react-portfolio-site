@@ -12,17 +12,18 @@ export function Header() {
                         <div className="profile-thumb" style={{backgroundImage: `url(${ProfileImage})`}}></div>
                         <h1 className="title-text">上田 周</h1>
                         <h3 className="title-text">Engineer</h3>
-                        <h1 className="social-icons"></h1>
-                        <li className="icon-link">
-                            <a href="https://x.com/basrossDev">
-                            <FaTwitter color="white" size="2rem"/>
-                            </a>
-                        </li>
-                        <li className="icon-link">
-                            <a href="https://github.com/shu-amane">
-                                <FaGithub color="white" size="2rem"/>
-                            </a>
-                        </li>
+                        <h1 className="social-icons">
+                            <li className="icon-link">
+                                <a href="https://x.com/basrossDev">
+                                <FaTwitter color="white" size="2rem"/>
+                                </a>
+                            </li>
+                            <li className="icon-link">
+                                <a href="https://github.com/shu-amane">
+                                    <FaGithub color="white" size="2rem"/>
+                                </a>
+                            </li>
+                        </h1>
                     </div>
                 </div>
             </div>
